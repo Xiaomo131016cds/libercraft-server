@@ -1,0 +1,17 @@
+{
+  "名称"："libercraft-server",
+  "版本": "1.0.0",
+  "描述": "Libercraft独立私服",
+  "类型": "模块",
+  "主要": "server.js",
+  "脚本": {
+    "start": "node server.js"
+  },
+  "依存关系": {
+    "ws": "^8.18.0",
+    "archiver": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
